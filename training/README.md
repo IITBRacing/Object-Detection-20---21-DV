@@ -1,11 +1,8 @@
-### TRAINING:
-  Upload TrainYoloV3.ipynb notebook on google colab, make sure to change the directory in the code or maintain the same names (yolov3/images.zip). After Authentication at step-2 let the training file run till the avg.loss is less than 0.1
+## Training:
+  Can be done online or on our personal computer.
   
-  Use [yolov3_testing.cfg](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/training/yolov3_testing.cfg) with detect.py 
+  (train_colab)[https://github.com/IITBRacing/Object-Detection-20---21-DV/tree/master/training/train_colab] contains a jupiter notebook which can be used to train our network online on google colab. Colab notebooks execute code on Google's cloud servers, meaning you can leverage the power of Google hardware, including GPUs and TPUs. 
   
-### TESTING:
-
-1) .weights file should be added in this directory to run this detect.py code
-2) .weights file will be generated in the same folder in the google drive, after the training is done in  google  colab
-3) detect.py will load pictures from a directory because it makes easy to test the trained net
-4) Refer to line 16, in [detect.py](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/training/detect.py) to change the directory
+  (train_local)[https://github.com/IITBRacing/Object-Detection-20---21-DV/tree/master/training/train_local] this folder contains codes and describes how to train your netowrk locally
+  
+  (test)[https://github.com/IITBRacing/Object-Detection-20---21-DV/tree/master/training/testing] contains codes that help you test the trained network 
