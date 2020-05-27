@@ -29,8 +29,8 @@ Inorder to train a network on local PC,
   - Go to line 20 and change max_batches to  2000*(#number_of_classes) but it should be atleast 4000 that is training for 1 and 2 classes max_batches = 4000, for 3 classes max_batches = 6000 
   - Go to line 22 and change steps = 80%,90% of max_matches that is for 3 classes steps = 4800,5400
   - We will need to update the classes and filters params of [yolo] and [convolutional] layers that are just before the           [yolo] layers.
-  - In this example since we have a single class (tesla) we will update the classes param in the [yolo] layers to 1 at line       numbers: 610, 696, 783
-  - Similarly we will need to update the filters param based on the classes count filters=(classes + 5) * 3. For a single         class we should set filters=18 at line numbers: 603, 689, 776
+  - In this case since we have a three class (yellow, blue, orange) we will update the classes param in the [yolo] layers to 3 at line numbers: 610, 696, 783
+  - Similarly we will need to update the filters param based on the classes count filters=(classes + 5) * 3. For a three         classes we should set filters=24 at line numbers: 603, 689, 776
  
    
    
