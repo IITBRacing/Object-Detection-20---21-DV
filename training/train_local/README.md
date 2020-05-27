@@ -61,5 +61,8 @@ Inorder to train a network on local PC,
    Use this command to start training
   
   7. After the training is complete u can see .weights files in the backup folder located in root directory
+  
+ ## Comments :
+   I will be uploading all the files mentioned above in this repository
    
    
