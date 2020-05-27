@@ -21,7 +21,7 @@ Inorder to train a network on local PC,
    - Find darknet/cfg/yolov3.cfg file 
    - Copy and paste it in the same directory with the name yolov3-custom.cfg
 ### Editing yolov3-custom.cfg :
-  [](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/training/train_local/pics/1.png)
+  ![](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/training/train_local/pics/1.png)
  
    
    
