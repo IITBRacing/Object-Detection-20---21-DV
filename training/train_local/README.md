@@ -33,7 +33,8 @@ Inorder to train a network on local PC,
   5. Similarly we will need to update the filters param based on the classes count filters=(classes + 5) * 3. For a three         classes we should set filters=24 at line numbers: 603, 689, 776
   
 ## Training :
-  Create a file named obj.names in darknet/data folder and 
+  Create a file named obj.names in darknet/data folder and list your classes in the order as shown in the pic below
+  ![](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/training/train_local/pics/2.png)
    
    
    
