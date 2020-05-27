@@ -11,4 +11,5 @@ Once that’s successful, To test the build we can download pre trained YOLO wei
 ```
 ./darknet detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights data/dog.jpg
 ```
-
+## Creating dataset :
+    Create a dataset same as the one created for 
