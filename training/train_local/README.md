@@ -24,7 +24,9 @@ Inorder to train a network on local PC,
   ![](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/training/train_local/pics/1.jpg)
   
   Make sure that the Training is uncommented and testing is commented in the .cfg file
-  and the subdivision is set to 16 by default and incase your machines runs out of memory change it to 32.
+  and the subdivision is set to 16 by default and incase your machines runs out of memory or shows some error change it to 32.
+  
+  - Go to line 20 and change max_batches to  2000*(#number_of_classes) but it should be atleast 4000 that is training for 1 and 2 classes max_batches = 4000, for 3 classes max_batches = 6000 
  
    
    
