@@ -27,6 +27,8 @@ Inorder to train a network on local PC,
   and the subdivision is set to 16 by default and incase your machines runs out of memory or shows some error change it to 32.
   
   - Go to line 20 and change max_batches to  2000*(#number_of_classes) but it should be atleast 4000 that is training for 1 and 2 classes max_batches = 4000, for 3 classes max_batches = 6000 
+  - Go to line 22 and change steps = 80%,90% of max_matches that is for 3 classes steps = 4800,5400
+  -
  
    
    
