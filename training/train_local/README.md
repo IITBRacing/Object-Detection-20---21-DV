@@ -7,3 +7,8 @@ Inorder to train a network on local PC,
    cd darknet
    make
 ```
+Once that’s successful, To test the build we can download pre trained YOLO weights and perform detection with the test image.
+```
+./darknet detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights data/dog.jpg
+```
+
