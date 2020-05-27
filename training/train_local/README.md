@@ -16,5 +16,12 @@ Inorder to train a network on local PC,
    Create a dataset same as the one created for google colab, with pics and corresponding .txt annotation file.
    
    - create a directory darknet/data/obj and put all the images and .txt files in this directory
+ 
+## Configuring :
+   - Find darknet/cfg/yolov3.cfg file 
+   - Copy and paste it in the same directory with the name yolov3-custom.cfg
+   - Now we will make changes in this file according our needs
+ 
+   
    
    
