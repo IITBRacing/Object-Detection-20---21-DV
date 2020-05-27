@@ -15,6 +15,6 @@ Inorder to train a network on local PC,
 ## Creating dataset :
    Create a dataset same as the one created for google colab, with pics and corresponding .txt annotation file.
    
-   > create a directory darknet/data/obj and put all the images and .txt files in this directory
+   - create a directory darknet/data/obj and put all the images and .txt files in this directory
    
    
