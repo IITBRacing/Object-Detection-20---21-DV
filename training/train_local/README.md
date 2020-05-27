@@ -31,7 +31,9 @@ Inorder to train a network on local PC,
   3. We will need to update the classes and filters params of [yolo] and [convolutional] layers that are just before the           [yolo] layers.
   4. In this case since we have a three class (yellow, blue, orange) we will update the classes param in the [yolo] layers to 3 at line numbers: 610, 696, 783
   5. Similarly we will need to update the filters param based on the classes count filters=(classes + 5) * 3. For a three         classes we should set filters=24 at line numbers: 603, 689, 776
- 
+  
+## Training :
+  Create a file named obj.names in darknet/data folder and 
    
    
    
