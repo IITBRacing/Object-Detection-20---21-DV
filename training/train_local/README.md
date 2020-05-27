@@ -52,7 +52,14 @@ Inorder to train a network on local PC,
   ```
   wget https://pjreddie.com/media/files/darknet53.conv.74
   ```
-  Download the pre-trained weights file in the root directory(darknet) by the command or the link given above 
-   
+  Download the pre-trained weights file in the root directory(darknet) by the command or the link given above
+  
+  6. With this we are all ready to start training, 
+  ```
+  /darknet detector train data/obj.data data/cfg/yolov3-custom.cfg darknet53.conv.74
+  ```
+   Use this command to start training
+  
+  7. After the training is complete u can see .weights files in the backup folder located in root directory
    
    
