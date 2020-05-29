@@ -1,5 +1,7 @@
 Inorder to train a network on local PC, 
 
+[This](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/training/train_local/TrainYolo_local.ipynb) notebook contains code do do all the below mentioned changes
+
 ## Cloning darknet :
   First clone and make darknet at any directory on your PC from
   ```
