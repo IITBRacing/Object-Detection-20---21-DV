@@ -7,4 +7,4 @@ Test results can be found on [this folder](https://drive.google.com/drive/folder
 
 This is a cone detection done with the network trained using [this dataset](https://storage.cloud.google.com/mit-driverless-open-source/YOLO_Dataset.zip?authuser=1) on [AMZ racing driverless video](https://www.youtube.com/watch?v=aCDPwZZm9C4) 
 
-![demo](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/demo.gif)
+![demo](https://github.com/IITBRacing/Object-Detection-20---21-DV/blob/master/diff_cone.gif)
